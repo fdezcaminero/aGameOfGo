@@ -1,0 +1,62 @@
+@font-face {
+  font-family: LatoRegular;
+  src: url(../resources/LatoFonts/Lato-Regular.ttf);
+}
+
+.LatoRegular {
+  font-family: LatoRegular, serif;
+}
+
+.buttonMoreStyle {
+  text-align: center;
+  border: 1px solid lightgray;
+}
+
+.arrowStyle {
+  width: 10px;
+}
+
+.mainStyle {
+  background-color: black;
+  color: white;
+}
+
+.mainh2Style {
+  text-align: center;
+}
+
+.divOpacity {
+  background-color: gray;
+  opacity: 0.4;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.activityType {
+  color: orange;
+}
+
+.activityContent {
+  font-size: 13px;
+}
+
+.flexCenter {
+  justify-content: center;
+}
+
+.buttonMainStyle {
+  border: none;
+  border-radius: 2px;
+  background-color: orange;
+  margin: 5px 0;
+}
+
+.alienImage {
+  width: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  
+}
