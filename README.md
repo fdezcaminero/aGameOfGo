@@ -1,9 +1,8 @@
-# aGameOfGo
-This upcoming June 27, 1835, Honinbo Jowa plays Akaboshi Intetsu
-
 <div align="center">
   <h1><b>A Game of Go</b></h1>
 </div>
+
+This upcoming June 27, 1835, Honinbo Jowa plays Akaboshi Intetsu
 
 # 📗 Table of Contents
 
