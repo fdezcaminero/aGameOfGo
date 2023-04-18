@@ -1,0 +1,16 @@
+@font-face {
+  font-family: LatoRegular;
+  src: url(../resources/LatoFonts/Lato-Regular.ttf);
+}
+
+.LatoRegular {
+  font-family: LatoRegular, serif;
+}
+
+.headerStyle {
+  background-color: lightgray;
+}
+
+@media screen and (min-width: 768px) {
+  
+}
