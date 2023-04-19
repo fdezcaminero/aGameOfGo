@@ -3,6 +3,14 @@
   src: url(../resources/LatoFonts/Lato-Regular.ttf);
 }
 
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .prenav {
   display: none;
 }
@@ -69,6 +77,24 @@
   display: none;
 }
 
+.styleSponsors {
+  display: none;
+}
+
+.styleCopyright {
+  display: none;
+}
+
+.horizontalLine {
+  color: #d7d7d7;
+  width: 25px;
+}
+
+.redText1 {
+  color: red;
+  font-style: italic;
+}
+
 @media screen and (min-width: 768px) {
   .mynav {
     display: block;
@@ -82,9 +108,12 @@
   }
 
   .prenav {
-    background-color: black;
+    background-color: #3e3e3e;
     color: white;
     display: block;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #a5a5a5;
   }
 
   .prenavul {
@@ -92,6 +121,13 @@
     display: flex;
     font-family: LatoRegular, sans-serif;
     justify-content: flex-end;
+    padding-right: 100px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+  .prenavul > li {
+    padding-right: 20px;
   }
 
   .toolbarStyle {
@@ -105,5 +141,31 @@
   .programStyle {
     display: block;
     text-align: center;
+    text-decoration: underline;
+    padding-bottom: 50px;
+  }
+
+  .pStyle1 {
+    font-size: 30px;
+  }
+
+  .h1Style {
+    font-size: 70px;
+    max-width: 650px;
+  }
+
+  .introStyle {
+    padding-left: 130px;
+  }
+
+  .styleSponsors {
+    display: block;
+    background: gray;
+    color: white;
+    position: relative;
+  }
+  
+  .styleCopyright {
+    display: block;
   }
 }
