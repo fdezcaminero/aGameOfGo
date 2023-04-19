@@ -3,6 +3,14 @@
   src: url(../resources/LatoFonts/Lato-Regular.ttf);
 }
 
+.prenav {
+  display: none;
+}
+
+.mynav {
+  display: none;
+}
+
 .LatoRegular {
   font-family: LatoRegular, serif;
 }
@@ -57,6 +65,45 @@
   width: 20px;
 }
 
+.programStyle {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
-  
+  .mynav {
+    display: block;
+  }
+
+  .navul {
+    list-style-type: none;
+    display: flex;
+    font-family: LatoRegular, sans-serif;
+    justify-content: flex-end;
+  }
+
+  .prenav {
+    background-color: black;
+    color: white;
+    display: block;
+  }
+
+  .prenavul {
+    list-style-type: none;
+    display: flex;
+    font-family: LatoRegular, sans-serif;
+    justify-content: flex-end;
+  }
+
+  .toolbarStyle {
+    display: none;
+  }
+
+  .buttonMainStyle {
+    display: none;
+  }
+
+  .programStyle {
+    display: block;
+    text-align: center;
+  }
 }

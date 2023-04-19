@@ -11,6 +11,40 @@
   background-color: lightgray;
 }
 
+.eventCard {
+  background-image: url(../resources/blackandwhiteGo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: LatoRegular, sans-serif;
+  text-align: center;
+  color: orange;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 1px;
+}
+
+.eventstyle {
+  font-size: 20px;
+}
+
+.styleSponsors {
+  background: gray;
+  color: white;
+  position: relative;
+}
+
+.Inoue {
+  position: absolute;
+  top: 40px;
+  right: 0;
+}
+
+.ministry {
+  position: absolute;
+  top: 74px;
+  right: 0;
+}
+
 @media screen and (min-width: 768px) {
-  
+
 }
