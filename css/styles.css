@@ -95,6 +95,14 @@
   font-style: italic;
 }
 
+.h3Style1 {
+  text-align: center;
+}
+
+.bottomSpeakers {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .mynav {
     display: block;
@@ -166,6 +174,10 @@
   }
   
   .styleCopyright {
+    display: block;
+  }
+
+  .bottomSpeakers {
     display: block;
   }
 }

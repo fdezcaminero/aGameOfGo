@@ -3,12 +3,29 @@
   src: url(../resources/LatoFonts/Lato-Regular.ttf);
 }
 
-.LatoRegular {
-  font-family: LatoRegular, serif;
+@font-face {
+  font-family: LatoSemiBold;
+  src: url(../resources/LatoFonts/Lato-Semibold.ttf);
 }
 
-.headerStyle {
-  background-color: lightgray;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.prenav {
+  display: none;
+}
+
+.mynav {
+  display: none;
+}
+
+.LatoRegular {
+  font-family: LatoRegular, serif;
 }
 
 .eventCard {
@@ -31,6 +48,7 @@
   background: gray;
   color: white;
   position: relative;
+  height: 127.333px;
 }
 
 .Inoue {
@@ -46,5 +64,42 @@
 }
 
 @media screen and (min-width: 768px) {
+  .mynav {
+    display: block;
+  }
 
+
+  .navul {
+    list-style-type: none;
+    display: flex;
+    font-family: LatoRegular, sans-serif;
+    justify-content: flex-end;
+  }
+
+  .prenav {
+    background-color: #3e3e3e;
+    color: white;
+    display: block;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #a5a5a5;
+  }
+
+  .prenavul {
+    list-style-type: none;
+    display: flex;
+    font-family: LatoRegular, sans-serif;
+    justify-content: flex-end;
+    padding-right: 100px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+  .prenavul > li {
+    padding-right: 20px;
+  }
+
+  .toolbarStyle {
+    display: none;
+  }
 }
