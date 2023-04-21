@@ -102,4 +102,9 @@
   .toolbarStyle {
     display: none;
   }
+
+  .introStyle {
+    background-image: url(../resources/goImage3.jpg);
+    padding-left: 130px;
+  }
 }

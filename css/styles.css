@@ -3,6 +3,11 @@
   src: url(../resources/LatoFonts/Lato-Regular.ttf);
 }
 
+@font-face {
+  font-family: LatoBold;
+  src: url(../resources/LatoFonts/Lato-Bold.ttf);
+}
+
 *,
 *::after,
 *::before {
@@ -20,7 +25,11 @@
 }
 
 .LatoRegular {
-  font-family: LatoRegular, serif;
+  font-family: LatoRegular, sans-serif;
+}
+
+.LatoBold {
+  font-family: LatoBold, sans-serif;
 }
 
 .buttonMoreStyle {
@@ -103,6 +112,23 @@
   display: none;
 }
 
+.introStyle {
+  background-image: url(../resources/goImage3.jpg);
+  padding: 121px 34px;
+}
+
+.pStyle1 {
+  color: white;
+}
+
+.midParagraph {
+  color: white;
+}
+
+.locationStyle {
+  color: white;
+}
+
 @media screen and (min-width: 768px) {
   .mynav {
     display: block;
@@ -163,7 +189,6 @@
   }
 
   .introStyle {
-    background-image: url(../resources/goImage3.jpg);
     padding-left: 130px;
   }
 
@@ -180,5 +205,9 @@
 
   .bottomSpeakers {
     display: block;
+  }
+
+  .dateStyle {
+    font-size: 30px;
   }
 }
