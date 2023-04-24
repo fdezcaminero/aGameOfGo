@@ -114,6 +114,9 @@
 
 .introStyle {
   background-image: url(../resources/goImage3.jpg);
+}
+
+.introTextStyle {
   padding: 121px 34px;
 }
 
@@ -123,10 +126,30 @@
 
 .midParagraph {
   color: white;
+  line-height: 30px;
+  width: 644px;
 }
 
 .locationStyle {
   color: white;
+}
+
+.toolbarStyle {
+  font-size: 52px;
+  padding-top: 12px;
+  padding-left: 12px;
+}
+
+.h1Style {
+  font-size: 46px;
+}
+
+.dispNone1 {
+  display: none;
+}
+
+.mobileMenuStyle {
+  background-image: url(../resources/goImage3.jpg);
 }
 
 @media screen and (min-width: 768px) {
@@ -208,6 +231,6 @@
   }
 
   .dateStyle {
-    font-size: 30px;
+    font-size: 35px;
   }
 }
