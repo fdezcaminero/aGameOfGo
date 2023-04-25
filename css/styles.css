@@ -46,6 +46,7 @@
   background-image: url(../resources/mainprogram.png);
   background-repeat: repeat;
   background-color: #272a32;
+  position: relative;
 }
 
 .mainh2Style {
@@ -55,6 +56,9 @@
 .divOpacity {
   background-color: gray;
   opacity: 0.4;
+  width: 80vw;
+  height: 55px;
+  position: absolute;
 }
 
 .flexbox {
@@ -62,7 +66,7 @@
 }
 
 .activityType {
-  color: orange;
+  color: #fe5037;
 }
 
 .activityContent {
@@ -168,6 +172,15 @@
   color: white;
   font-size: 59px;
   right: 0;
+}
+
+.pRelative1 {
+  position: relative;
+  padding-left: 56px;
+}
+
+.zIndex1 {
+  z-index: 10;
 }
 
 @media screen and (min-width: 768px) {
