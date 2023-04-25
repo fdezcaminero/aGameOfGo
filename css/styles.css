@@ -42,8 +42,10 @@
 }
 
 .mainStyle {
-  background-color: black;
   color: white;
+  background-image: url(../resources/mainprogram.png);
+  background-repeat: repeat;
+  background-color: #272a32;
 }
 
 .mainh2Style {
