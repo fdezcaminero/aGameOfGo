@@ -128,6 +128,7 @@
   color: white;
   line-height: 30px;
   width: 644px;
+  max-width: 80vw;
 }
 
 .locationStyle {
@@ -150,6 +151,21 @@
 
 .mobileMenuStyle {
   background-image: url(../resources/goImage3.jpg);
+  height: 100vh;
+}
+
+.mobileMenuContent {
+  color: white;
+  font-family: LatoBold, sans-serif;
+  font-size: 48px;
+}
+
+.xButton {
+  position: absolute;
+  top: 0;
+  color: white;
+  font-size: 59px;
+  right: 0;
 }
 
 @media screen and (min-width: 768px) {

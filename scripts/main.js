@@ -7,3 +7,4 @@ function menuMobile() {
 }
 
 document.getElementById('toolbar').addEventListener('click', menuMobile);
+document.getElementById('xButton').addEventListener('click', menuMobile);
