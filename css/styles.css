@@ -58,7 +58,7 @@
   background-color: gray;
   opacity: 0.3;
   width: 80vw;
-  height: 84px;
+  height: 143px;
   position: absolute;
   left: 50px;
   top: 0;
@@ -294,9 +294,22 @@
 
   .flexbox1 {
     flex-direction: column;
+    align-items: center;
   }
 
   .smallIcon {
     width: 5vw;
+  }
+
+  .divOpacity {
+    width: 17vw;
+  }
+
+  .pRelative1 {
+    max-width: 18vw;
+  }
+
+  .activityContent {
+    text-align: center;
   }
 }
