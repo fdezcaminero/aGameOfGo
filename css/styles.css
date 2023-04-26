@@ -51,26 +51,37 @@
 
 .mainh2Style {
   text-align: center;
+  padding: 26px 0;
 }
 
 .divOpacity {
   background-color: gray;
-  opacity: 0.4;
+  opacity: 0.3;
   width: 80vw;
-  height: 55px;
+  height: 84px;
   position: absolute;
+  left: 50px;
+  top: 0;
 }
 
 .flexbox {
   display: flex;
 }
 
+.flexbox1 {
+  display: flex;
+}
+
 .activityType {
   color: #fe5037;
+  margin: auto 12px;
+  width: 23%;
 }
 
 .activityContent {
   font-size: 13px;
+  margin: auto 0;
+  max-width: 36vw;
 }
 
 .flexCenter {
@@ -123,7 +134,7 @@
 }
 
 .introTextStyle {
-  padding: 121px 34px;
+  padding: 135px 34px;
 }
 
 .pStyle1 {
@@ -177,10 +188,22 @@
 .pRelative1 {
   position: relative;
   padding-left: 56px;
+  padding-top: 10px;
+  padding-bottom: 25px;
 }
 
 .zIndex1 {
   z-index: 10;
+}
+
+.dateStyle {
+  font-size: 25px;
+}
+
+.redbar {
+  width: 82px;
+  border-bottom: 1px solid #fe5037;
+  margin: -15px auto 35px;
 }
 
 @media screen and (min-width: 768px) {
@@ -263,5 +286,17 @@
 
   .dateStyle {
     font-size: 35px;
+  }
+
+  .flexbox2 {
+    display: flex;
+  }
+
+  .flexbox1 {
+    flex-direction: column;
+  }
+
+  .smallIcon {
+    width: 5vw;
   }
 }
