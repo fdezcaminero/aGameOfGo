@@ -212,6 +212,11 @@
   margin: -15px auto 35px;
 }
 
+.plainAnchor {
+  text-decoration: none;
+  color: white;
+}
+
 @media screen and (min-width: 768px) {
   .mynav {
     display: flex;
