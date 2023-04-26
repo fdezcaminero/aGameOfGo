@@ -38,10 +38,13 @@
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 1px;
+  height: 155px;
+  margin-top: 15px;
 }
 
 .eventstyle {
   font-size: 20px;
+  margin-top: 45px;
 }
 
 .styleSponsors {
@@ -61,6 +64,20 @@
   position: absolute;
   top: 74px;
   right: 0;
+}
+
+.introStyle {
+  background-image: url(../resources/goImage3.jpg);
+}
+
+.toolbarStyle {
+  font-size: 52px;
+  padding-top: 12px;
+  padding-left: 12px;
+}
+
+.dispNone1 {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -135,7 +152,6 @@
   }
 
   .introStyle {
-    background-image: url(../resources/goImage3.jpg);
     padding-left: 130px;
   }
 }
