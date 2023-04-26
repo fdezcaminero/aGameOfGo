@@ -4,6 +4,11 @@
 }
 
 @font-face {
+  font-family: LatoSemiBold;
+  src: url(../resources/LatoFonts/Lato-Semibold.ttf);
+}
+
+@font-face {
   font-family: LatoBold;
   src: url(../resources/LatoFonts/Lato-Bold.ttf);
 }
