@@ -58,7 +58,7 @@
   background-color: gray;
   opacity: 0.3;
   width: 80vw;
-  height: 143px;
+  height: 80px;
   position: absolute;
   left: 50px;
   top: 0;
@@ -214,7 +214,9 @@
 
 @media screen and (min-width: 768px) {
   .mynav {
-    display: block;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0;
   }
 
   .navul {
@@ -222,6 +224,13 @@
     display: flex;
     font-family: LatoRegular, sans-serif;
     justify-content: flex-end;
+    color: #7b7b7b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .liGray {
+    padding-right: 35px;
   }
 
   .prenav {
@@ -245,6 +254,29 @@
 
   .prenavul > li {
     padding-right: 20px;
+  }
+
+  .ccsummitlogo {
+    width: 120px;
+  }
+
+  .liRed {
+    color: #ee3e27;
+    border: 2px solid #ee3e27;
+    padding: 0 5px;
+  }
+
+  .liGray:hover {
+    color: #ee3e27;
+  }
+
+  .mainAnchor {
+    text-decoration: none;
+    color: gray;
+  }
+
+  .mainAnchor:hover {
+    color: #ee3e27;
   }
 
   .toolbarStyle {
@@ -308,6 +340,7 @@
   }
 
   .divOpacity {
+    height: 143px;
     width: 17vw;
   }
 
