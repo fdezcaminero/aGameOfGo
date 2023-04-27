@@ -353,7 +353,8 @@
   }
 
   .bottomSpeakers {
-    display: block;
+    display: flex;
+    gap: 5px;
   }
 
   .dateStyle {
@@ -390,5 +391,11 @@
 
   .buttonMoreStyle {
     display: none;
+  }
+
+  .gridSpeakers {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }

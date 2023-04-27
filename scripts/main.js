@@ -1,7 +1,7 @@
 function menuMobile() {
   const mobileDisplay = document.getElementById('mobileDisplay');
   const mobileMenu = document.getElementById('mobileMenu');
-  
+
   mobileDisplay.classList.toggle('dispNone1');
   mobileMenu.classList.toggle('dispNone1');
 }
@@ -22,7 +22,7 @@ const Speakers = [{
   },
   name: 'Noam Chomsky',
   title: 'MIT Linguist',
-  bio: 'World-acclaimed linguist. Celebrated for his ideas about Universal Grammar and generative grammar, among other things.',
+  bio: 'World-acclaimed linguist - celebrated for his ideas about Universal Grammar and generative grammar, among other things',
 },
 {
   picture: {
@@ -66,28 +66,28 @@ function loadHTML() {
   const superHTML = `
   <h3 class="h3Style1">Guest Speakers</h3>
   
-  <div class="flexSpeakers">
-    <img id="projectImage1" class="imgSize">
-    <div>
-      <p id="speaker1">Gennan Inseki</p>
-      <p id="title1" class="redText1">Head of the Inoue House</p>
-      <img class="horizontalLine" src="resources/horizontalrule.svg" alt="Horizontal Line">
-      <p id="bio1"></p>
-    </div>
-  </div>
-
-  <div class="flexSpeakers">
-    <img id="projectImage2" class="imgSize">
-    <div>
-      <p id="speaker2">Noam Chomsky</p>
-      <p id="title2" class="redText1">MIT Linguist</p>
-      <img class="horizontalLine" src="resources/horizontalrule.svg" alt="Horizontal Line">
-      <p id="bio2"></p>
-    </div>
-  </div>
-
-  <section class="bottomSpeakers">
+  <section class="gridSpeakers">
     <div class="flexSpeakers">
+      <img id="projectImage1" class="imgSize">
+      <div>
+        <p id="speaker1">Gennan Inseki</p>
+        <p id="title1" class="redText1">Head of the Inoue House</p>
+        <img class="horizontalLine" src="resources/horizontalrule.svg" alt="Horizontal Line">
+        <p id="bio1"></p>
+      </div>
+    </div>
+
+    <div class="flexSpeakers">
+      <img id="projectImage2" class="imgSize">
+      <div>
+        <p id="speaker2">Noam Chomsky</p>
+        <p id="title2" class="redText1">MIT Linguist</p>
+        <img class="horizontalLine" src="resources/horizontalrule.svg" alt="Horizontal Line">
+        <p id="bio2"></p>
+      </div>
+    </div>
+
+    <div class="bottomSpeakers">
       <img id="projectImage3" class="imgSize">
       <div>
         <p id="speaker3">G.W.F. Hegel</p>
@@ -97,7 +97,7 @@ function loadHTML() {
       </div>
     </div>
 
-    <div class="flexSpeakers">
+    <div class="bottomSpeakers">
       <img id="projectImage4" class="imgSize">
       <div>
         <p id="speaker4">Honinbo Dosaku</p>
@@ -107,7 +107,7 @@ function loadHTML() {
       </div>
     </div>
 
-    <div class="flexSpeakers">
+    <div class="bottomSpeakers">
       <img id="projectImage5" class="imgSize">
       <div>
         <p id="speaker5">Yasunari Kawabata</p>
@@ -117,7 +117,7 @@ function loadHTML() {
       </div>
     </div>
 
-    <div class="flexSpeakers">
+    <div class="bottomSpeakers">
       <img id="projectImage6" class="imgSize">
       <div>
         <p id="speaker6">Matsuo Basho</p>
@@ -126,6 +126,7 @@ function loadHTML() {
         <p id="bio6"></p>
       </div>
     </div>
+  </section>
   `;
 
   document.querySelector('.speakersSection').innerHTML = superHTML;
