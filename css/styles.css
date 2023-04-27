@@ -231,6 +231,10 @@
   gap: 10px;
 }
 
+.imgSize {
+  width: 10%;
+}
+
 @media screen and (min-width: 768px) {
   .mynav {
     display: flex;

@@ -7,40 +7,58 @@ function menuMobile() {
 }
 
 const Speakers = [{
-  picture: '',
+  picture: {
+    imgSrc: 'resources/gennanInseki.jpeg',
+    imgAlt: 'Gennan Inseki'
+  },
   name: 'Gennan Inseki',
   title: 'Head of the Inoue House',
-  bio: '',
+  bio: 'One of the Four Sages of Go',
 },
 {
-  picture: '',
+  picture: {
+    imgSrc: 'resources/noamChomsky.jpg',
+    imgAlt: 'Noam Chomsky',
+  },
   name: 'Noam Chomsky',
   title: 'MIT Linguist',
-  bio: '',
+  bio: 'World-acclaimed linguist. Celebrated for his ideas about Universal Grammar and generative grammar, among other things.',
 },
 {
-  picture: '',
+  picture: {
+    imgSrc: 'resources/Hegel.jpg',
+    imgAlt: 'Hegel',
+  },
   name: 'G.W.F. Hegel',
   title: 'Philosopher',
-  bio: '',
+  bio: 'Very famous philosopher (celebrated for being the most difficult philosopher to understand)',
 },
 {
-  picture: '',
+  picture: {
+    imgSrc: 'resources/honinboDosaku.jpg',
+    imgAlt: 'Honinbo Dosaku',
+  },
   name: 'Honinbo Dosaku',
   title: '9 Dan Go Player',
-  bio: '',
+  bio: 'World class Japanese Go player',
 },
 {
-  picture: '',
+  picture: {
+    imgSrc: 'resources/yasunariKawabata.jpg',
+    imgAlt: 'Yasunari Kawabata',
+  },
   name: 'Yasunari Kawabata',
   title: 'Writer',
-  bio: '',
+  bio: 'Nobel prize winning Japanese writer, author of The Master of Go',
 },
 {
-  picture: '',
+  picture: {
+    imgSrc: 'resources/matsuoBasho.jpg',
+    imgAlt: 'Matsuo Basho',
+  },
   name: 'Matsuo Basho',
   title: 'Poet',
-  bio: '',
+  bio: 'Japense Poet from the 17th Century',
 },
 ]
 
@@ -49,63 +67,63 @@ function loadHTML() {
   <h3 class="h3Style1">Guest Speakers</h3>
   
   <div>
-    <img>
+    <img id="projectImage1" class="imgSize">
     <div>
-      <p>Gennan Inseki</p>
-      <p class="redText1">Head of the Inoue House</p>
+      <p id="speaker1">Gennan Inseki</p>
+      <p id="title1" class="redText1">Head of the Inoue House</p>
       <img class="horizontalLine" src="resources/horizontalrule.svg" alt="Horizontal Line">
-      <p></p>
+      <p id="bio1"></p>
     </div>
   </div>
 
   <div>
-    <img>
+    <img id="projectImage2" class="imgSize">
     <div>
-      <p>Noam Chomsky</p>
-      <p class="redText1">MIT Linguist</p>
+      <p id="speaker2">Noam Chomsky</p>
+      <p id="title2" class="redText1">MIT Linguist</p>
       <img class="horizontalLine" src="resources/horizontalrule.svg" alt="Horizontal Line">
-      <p></p>
+      <p id="bio2"></p>
     </div>
   </div>
 
   <section class="bottomSpeakers">
     <div>
-      <img>
+      <img id="projectImage3" class="imgSize">
       <div>
-        <p>G.W.F. Hegel</p>
-        <p class="redText1">Philosopher</p>
+        <p id="speaker3">G.W.F. Hegel</p>
+        <p id="title3" class="redText1">Philosopher</p>
         <img class="horizontalLine" src="resources/horizontalrule.svg" alt="Horizontal Line">
-        <p></p>
+        <p id="bio3"></p>
       </div>
     </div>
 
     <div>
-      <img>
+      <img id="projectImage4" class="imgSize">
       <div>
-        <p>Honinbo Dosaku</p>
-        <p class="redText1">9 Dan Go Player</p>
+        <p id="speaker4">Honinbo Dosaku</p>
+        <p id="title4" class="redText1">9 Dan Go Player</p>
         <img class="horizontalLine" src="resources/horizontalrule.svg" alt="Horizontal Line">
-        <p></p>
+        <p id="bio4"></p>
       </div>
     </div>
 
     <div>
-      <img>
+      <img id="projectImage5" class="imgSize">
       <div>
-        <p>Yasunari Kawabata</p>
-        <p class="redText1">Writer</p>
+        <p id="speaker5">Yasunari Kawabata</p>
+        <p id="title5" class="redText1">Writer</p>
         <img class="horizontalLine" src="resources/horizontalrule.svg" alt="Horizontal Line">
-        <p></p>
+        <p id="bio5"></p>
       </div>
     </div>
 
     <div>
-      <img>
+      <img id="projectImage6" class="imgSize">
       <div>
-        <p>Matsuo Basho</p>
-        <p class="redText1">Poet</p>
+        <p id="speaker6">Matsuo Basho</p>
+        <p id="title6" class="redText1">Poet</p>
         <img class="horizontalLine" src="resources/horizontalrule.svg" alt="Horizontal Line">
-        <p></p>
+        <p id="bio6"></p>
       </div>
     </div>
   `;
@@ -113,11 +131,24 @@ function loadHTML() {
   document.querySelector('.speakersSection').innerHTML = superHTML;
 }
 
-function loadProjects() {
-  
+function loadSpeakers() {
+  const num = Speakers.length;
+  for (let i = 1; i <= num; i += 1) {
+    const BigImg = `projectImage${i}`;
+    const BigName = `speaker${i}`;
+    const BigTitle = `title${i}`;
+    const BigBio = `bio${i}`;
+
+    document.getElementById(BigName).innerHTML = Speakers[i - 1].name;
+    document.getElementById(BigTitle).innerHTML = Speakers[i - 1].title;
+    document.getElementById(BigBio).innerHTML = Speakers[i - 1].bio;
+    document.getElementById(BigImg).src = Speakers[i - 1].picture.imgSrc;
+    document.getElementById(BigImg).alt = Speakers[i - 1].picture.imgAlt;
+  }
 }
 
 window.addEventListener('load', loadHTML);
+window.addEventListener('load', loadSpeakers);
 
 document.getElementById('toolbar').addEventListener('click', menuMobile);
 document.getElementById('xButton').addEventListener('click', menuMobile);
