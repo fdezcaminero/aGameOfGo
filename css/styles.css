@@ -40,6 +40,9 @@
 .buttonMoreStyle {
   text-align: center;
   border: 1px solid lightgray;
+  padding: 7px;
+  width: 90%;
+  margin: 10px auto;
 }
 
 .arrowStyle {
