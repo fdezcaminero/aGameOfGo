@@ -145,8 +145,8 @@ I would like to thank my code reviewer for showing me this README template.
 
 This project is [MIT](./MIT.md) licensed.
 
-Some photographic material is licensed under Creative Commons 2.0 and some under Creative Commons 4.0
+Some photographic material is licensed under Creative Commons 2.0 and some under Creative Commons 4.0.
 
-Special thanks to https://unsplash.com/ and https://www.pexels.com/ (along with their photographers)
+Special thanks to https://unsplash.com/ and https://www.pexels.com/ (along with their photographers).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
