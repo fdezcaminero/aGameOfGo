@@ -74,6 +74,7 @@
 
 .flexbox1 {
   display: flex;
+  padding: 10px;
 }
 
 .activityType {
@@ -185,6 +186,7 @@
   color: white;
   font-family: LatoBold, sans-serif;
   font-size: 48px;
+  list-style-type: none;
 }
 
 .xButton {
@@ -193,17 +195,6 @@
   color: white;
   font-size: 59px;
   right: 0;
-}
-
-.pRelative1 {
-  position: relative;
-  padding-left: 56px;
-  padding-top: 10px;
-  padding-bottom: 25px;
-}
-
-.zIndex1 {
-  z-index: 10;
 }
 
 .dateStyle {
@@ -231,6 +222,13 @@
 
 .ministry {
   text-align: right;
+}
+
+.flexbox2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -312,7 +310,7 @@
     display: block;
     text-align: center;
     text-decoration: underline;
-    padding-bottom: 50px;
+    padding: 50px 0;
   }
 
   .pStyle1 {
@@ -349,6 +347,8 @@
 
   .flexbox2 {
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 
   .flexbox1 {
@@ -365,20 +365,12 @@
     width: 17vw;
   }
 
-  .pRelative1 {
-    max-width: 18vw;
-  }
-
   .activityContent {
     text-align: center;
   }
 
-  .activityType2 {
-    width: 80px;
-  }
-
-  .oddPadding {
-    padding-left: 55px;
+  .activityType {
+    width: auto;
   }
 
   .buttonMoreStyle {
