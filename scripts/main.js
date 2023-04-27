@@ -66,7 +66,7 @@ function loadHTML() {
   const superHTML = `
   <h3 class="h3Style1">Guest Speakers</h3>
   
-  <div>
+  <div class="flexSpeakers">
     <img id="projectImage1" class="imgSize">
     <div>
       <p id="speaker1">Gennan Inseki</p>
@@ -76,7 +76,7 @@ function loadHTML() {
     </div>
   </div>
 
-  <div>
+  <div class="flexSpeakers">
     <img id="projectImage2" class="imgSize">
     <div>
       <p id="speaker2">Noam Chomsky</p>
@@ -87,7 +87,7 @@ function loadHTML() {
   </div>
 
   <section class="bottomSpeakers">
-    <div>
+    <div class="flexSpeakers">
       <img id="projectImage3" class="imgSize">
       <div>
         <p id="speaker3">G.W.F. Hegel</p>
@@ -97,7 +97,7 @@ function loadHTML() {
       </div>
     </div>
 
-    <div>
+    <div class="flexSpeakers">
       <img id="projectImage4" class="imgSize">
       <div>
         <p id="speaker4">Honinbo Dosaku</p>
@@ -107,7 +107,7 @@ function loadHTML() {
       </div>
     </div>
 
-    <div>
+    <div class="flexSpeakers">
       <img id="projectImage5" class="imgSize">
       <div>
         <p id="speaker5">Yasunari Kawabata</p>
@@ -117,7 +117,7 @@ function loadHTML() {
       </div>
     </div>
 
-    <div>
+    <div class="flexSpeakers">
       <img id="projectImage6" class="imgSize">
       <div>
         <p id="speaker6">Matsuo Basho</p>

@@ -232,7 +232,18 @@
 }
 
 .imgSize {
-  width: 10%;
+  object-fit: cover;
+  width: 230px;
+  height: 230px;
+}
+
+.copyright1 {
+  color: #fe5037;
+}
+
+.flexSpeakers {
+  display: flex;
+  gap: 5px;
 }
 
 @media screen and (min-width: 768px) {
