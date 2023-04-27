@@ -109,6 +109,39 @@
   right: 0;
 }
 
+.introTextStyle {
+  padding: 135px 34px;
+}
+
+.pStyle1 {
+  color: white;
+}
+
+.h1Style {
+  font-size: 46px;
+}
+
+.LatoBold {
+  font-family: LatoBold, sans-serif;
+}
+
+.midParagraph {
+  color: white;
+  line-height: 30px;
+  width: 644px;
+  max-width: 80vw;
+}
+
+.redbar {
+  width: 48px;
+  border-bottom: 2px solid #fe5037;
+  margin: 5px auto 5px;
+}
+
+.textCenter {
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
   .mynav {
     display: flex;
@@ -182,5 +215,14 @@
 
   .introStyle {
     padding-left: 130px;
+  }
+
+  .pStyle1 {
+    font-size: 30px;
+  }
+
+  .h1Style {
+    font-size: 70px;
+    max-width: 650px;
   }
 }
