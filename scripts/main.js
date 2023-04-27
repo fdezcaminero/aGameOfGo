@@ -9,7 +9,7 @@ function menuMobile() {
 const Speakers = [{
   picture: {
     imgSrc: 'resources/gennanInseki.jpeg',
-    imgAlt: 'Gennan Inseki'
+    imgAlt: 'Gennan Inseki',
   },
   name: 'Gennan Inseki',
   title: 'Head of the Inoue House',
@@ -60,7 +60,7 @@ const Speakers = [{
   title: 'Poet',
   bio: 'Japense Poet from the 17th Century',
 },
-]
+];
 
 function loadHTML() {
   const superHTML = `
