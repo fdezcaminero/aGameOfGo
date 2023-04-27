@@ -372,4 +372,8 @@
   .oddPadding {
     padding-left: 55px;
   }
+
+  .buttonMoreStyle {
+    display: none;
+  }
 }

@@ -143,9 +143,10 @@
 }
 
 .emailSection {
-  background-color: lightgray;
+  /* background-color: lightgray;
   border-radius: 4px;
-  max-width: 35vw;
+  max-width: 35vw; */
+  font-size: 30px;
 }
 
 @media screen and (min-width: 768px) {
