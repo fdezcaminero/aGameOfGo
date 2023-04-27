@@ -59,16 +59,16 @@
   height: 127.333px;
 }
 
+.pSponsors {
+  text-align: right;
+}
+
 .Inoue {
-  position: absolute;
-  top: 40px;
-  right: 0;
+  text-align: right;
 }
 
 .ministry {
-  position: absolute;
-  top: 74px;
-  right: 0;
+  text-align: right;
 }
 
 .introStyle {

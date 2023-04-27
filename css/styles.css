@@ -63,13 +63,9 @@
 }
 
 .divOpacity {
-  background-color: gray;
-  opacity: 0.3;
+  background-color: rgb(128, 128, 128, 0.3);
   width: 80vw;
   height: 80px;
-  position: absolute;
-  left: 50px;
-  top: 0;
 }
 
 .flexbox {
@@ -223,6 +219,18 @@
 .plainAnchor {
   text-decoration: none;
   color: white;
+}
+
+.pSponsors {
+  text-align: right;
+}
+
+.Inoue {
+  text-align: right;
+}
+
+.ministry {
+  text-align: right;
 }
 
 @media screen and (min-width: 768px) {
