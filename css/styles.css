@@ -175,6 +175,9 @@
 
 .h1Style {
   font-size: 46px;
+}
+
+.clip {
   background-clip: text;
   background-image: url(../resources/redBg.jpg);
   color: transparent;
@@ -265,7 +268,7 @@
 .flexSpeakers {
   display: flex;
   gap: 5px;
-  padding: 40px
+  padding: 40px;
 }
 
 .cckorea {
