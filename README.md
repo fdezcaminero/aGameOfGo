@@ -59,6 +59,8 @@ This upcoming June 27, 1835, Honinbo Jowa plays Akaboshi Intetsu
 
 - [Live Demo!](https://fdezcaminero.github.io/aGameOfGo/)
 
+- [Live Demo! Take 2](https://www.loom.com/share/69894470302a490e84ee3990e6d8400e)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
