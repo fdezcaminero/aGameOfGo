@@ -53,10 +53,9 @@
 }
 
 .styleSponsors {
-  background: gray;
+  background: #414246;
   color: white;
-  position: relative;
-  height: 127.333px;
+  padding: 40px;
 }
 
 .pSponsors {
@@ -143,6 +142,12 @@
   margin: 5px auto 5px;
 }
 
+.redbar2 {
+  width: 48px;
+  border-bottom: 2px solid #fe5037;
+  margin: 5px auto 5px;
+}
+
 .textCenter {
   text-align: center;
 }
@@ -177,6 +182,40 @@
 .styleCopyright {
   display: flex;
   justify-content: center;
+}
+
+.pSponsors {
+  text-align: center;
+  color: #9e9e9e;
+}
+
+.Honinbo {
+  color: #aeaeae;
+}
+
+.Inoue {
+  color: #676767;
+}
+
+.MIT {
+  color: #8d8d8d;
+}
+
+.ministry {
+  color: #878787;
+}
+
+.DuckDuckGo {
+  color: #6e6e6e;
+}
+
+.flexbox3 {
+  display: flex;
+  justify-content: center;
+}
+
+.flexbox3 > p {
+  padding: 0 3px;
 }
 
 @media screen and (min-width: 768px) {
