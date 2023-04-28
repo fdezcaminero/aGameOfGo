@@ -153,8 +153,9 @@
 @media screen and (min-width: 768px) {
   .mynav {
     display: flex;
-    justify-content: space-around;
     padding: 5px 0;
+    position: relative;
+    height: 63px;
   }
 
   .navul {
@@ -165,6 +166,8 @@
     color: #7b7b7b;
     padding-top: 10px;
     padding-bottom: 10px;
+    position: absolute;
+    right: 115px;
   }
 
   .liGray {
@@ -185,7 +188,7 @@
     display: flex;
     font-family: LatoRegular, sans-serif;
     justify-content: flex-end;
-    padding-right: 100px;
+    padding-right: 102px;
     padding-top: 6px;
     padding-bottom: 6px;
   }
@@ -196,6 +199,8 @@
 
   .ccsummitlogo {
     width: 120px;
+    position: absolute;
+    left: 100px;
   }
 
   .liRed {
