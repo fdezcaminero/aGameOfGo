@@ -178,6 +178,7 @@
 }
 
 .clip {
+  -webkit-background-clip: text;
   background-clip: text;
   background-image: url(../resources/redBg.jpg);
   color: transparent;
