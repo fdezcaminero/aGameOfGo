@@ -237,12 +237,8 @@
     display: none;
   }
 
-  .introStyle {
-    padding-left: 130px;
-  }
-
   .pStyle1 {
-    font-size: 30px;
+    display: none;
   }
 
   .h1Style {
@@ -253,5 +249,18 @@
   .emailSection {
     max-width: 600px;
     padding-right: 0;
+  }
+
+  .otherEvents {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .introTextStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 172px 0;
   }
 }
