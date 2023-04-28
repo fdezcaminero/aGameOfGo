@@ -318,7 +318,7 @@
 }
 
 .speakersSection {
-  padding: 40px 70px;
+  padding: 40px 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -479,5 +479,9 @@
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .speakersSection {
+    padding: 40px 70px;
   }
 }
