@@ -141,7 +141,7 @@
 }
 
 .introStyle {
-  background-image: url(../resources/goImage3.jpg);
+  background-image: url(../resources/mobile_intro_bg.png);
 }
 
 .introTextStyle {
@@ -149,18 +149,20 @@
 }
 
 .pStyle1 {
-  color: white;
+  color: #fe5037;
 }
 
 .midParagraph {
-  color: white;
+  color: black;
   line-height: 30px;
   width: 644px;
   max-width: 80vw;
+  border: 4px solid white;
+  background-color: #fafafa;
 }
 
 .locationStyle {
-  color: white;
+  color: black;
 }
 
 .toolbarStyle {
@@ -171,6 +173,9 @@
 
 .h1Style {
   font-size: 46px;
+  background-clip: text;
+  background-image: url(../resources/redBg.jpg);
+  color: transparent;
 }
 
 .dispNone1 {
