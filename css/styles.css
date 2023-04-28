@@ -251,6 +251,15 @@
   gap: 5px;
 }
 
+.cckorea {
+  width: 250px;
+  padding: 40px;
+}
+
+.copyright1835 {
+  padding-top: 32px;
+}
+
 @media screen and (min-width: 768px) {
   .mynav {
     display: flex;
@@ -359,7 +368,8 @@
   }
 
   .styleCopyright {
-    display: block;
+    display: flex;
+    justify-content: center;
   }
 
   .bottomSpeakers {

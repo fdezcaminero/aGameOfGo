@@ -39,7 +39,7 @@
   background-size: cover;
   font-family: LatoRegular, sans-serif;
   text-align: center;
-  color: orange;
+  color: black;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 1px;
@@ -161,6 +161,24 @@
   color: #fe5037;
 }
 
+.cckorea {
+  width: 250px;
+  padding: 40px;
+}
+
+.cckorea2 {
+  display: none;
+}
+
+.copyright1835 {
+  padding-top: 82px;
+}
+
+.styleCopyright {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (min-width: 768px) {
   .mynav {
     display: flex;
@@ -255,6 +273,7 @@
     display: flex;
     justify-content: center;
     gap: 30px;
+    padding-bottom: 15px;
   }
 
   .introTextStyle {
@@ -262,5 +281,24 @@
     flex-direction: column;
     align-items: center;
     padding: 172px 0;
+  }
+
+  .styleCopyright {
+    background-color: #2e2e2e;
+    color: white;
+  }
+
+  .cckorea {
+    display: none;
+  }
+
+  .cckorea2 {
+    display: block;
+    width: 250px;
+    padding: 40px;
+  }
+
+  .copyright1835 {
+    padding-top: 32px;
   }
 }
