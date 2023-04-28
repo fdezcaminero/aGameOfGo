@@ -58,18 +58,6 @@
   padding: 40px;
 }
 
-.pSponsors {
-  text-align: right;
-}
-
-.Inoue {
-  text-align: right;
-}
-
-.ministry {
-  text-align: right;
-}
-
 .introStyle {
   background-image: url(../resources/mobile_intro_bg.png);
 }
@@ -118,7 +106,7 @@
 
 .h1Style {
   font-size: 46px;
-  background-clip: text;
+  -webkit-background-clip: text;
   background-image: url(../resources/redBg.jpg);
   color: transparent;
 }
