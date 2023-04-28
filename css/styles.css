@@ -133,7 +133,9 @@
 }
 
 .h3Style1 {
+  font-family: LatoBold, sans-serif;
   text-align: center;
+  font-size: 25px;
 }
 
 .bottomSpeakers {
@@ -251,8 +253,9 @@
 
 .imgSize {
   object-fit: cover;
-  width: 230px;
-  height: 230px;
+  width: 150px;
+  height: 150px;
+  padding-right: 10px;
 }
 
 .copyright1 {
@@ -262,6 +265,7 @@
 .flexSpeakers {
   display: flex;
   gap: 5px;
+  padding: 40px
 }
 
 .cckorea {
@@ -286,6 +290,28 @@
   width: 48px;
   border-bottom: 2px solid #fe5037;
   margin: 5px auto 5px;
+}
+
+.redbar3 {
+  width: 65px;
+  border-bottom: 2px solid #fe5037;
+  margin: 10px auto 30px;
+}
+
+.speaker {
+  font-size: 20px;
+}
+
+.pRelative {
+  position: relative;
+}
+
+.checkerpattern {
+  width: 50px;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  z-index: -1;
 }
 
 @media screen and (min-width: 768px) {
@@ -403,6 +429,7 @@
   .bottomSpeakers {
     display: flex;
     gap: 5px;
+    padding: 40px;
   }
 
   .dateStyle {

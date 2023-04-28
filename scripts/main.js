@@ -65,12 +65,17 @@ const Speakers = [{
 function loadHTML() {
   const superHTML = `
   <h3 class="h3Style1">Guest Speakers</h3>
+
+  <div class="redbar3"></div>
   
   <section class="gridSpeakers">
     <div class="flexSpeakers">
-      <img id="projectImage1" class="imgSize">
+      <div class="pRelative">
+        <img class="checkerpattern" src="resources/checkerpattern.svg">
+        <img id="projectImage1" class="imgSize">
+      </div>
       <div>
-        <p id="speaker1">Gennan Inseki</p>
+        <p id="speaker1" class="LatoBold speaker">Gennan Inseki</p>
         <p id="title1" class="redText1">Head of the Inoue House</p>
         <img class="horizontalLine" src="resources/horizontalrule.svg" alt="Horizontal Line">
         <p id="bio1"></p>
@@ -78,9 +83,12 @@ function loadHTML() {
     </div>
 
     <div class="flexSpeakers">
-      <img id="projectImage2" class="imgSize">
+      <div class="pRelative">
+        <img class="checkerpattern" src="resources/checkerpattern.svg">
+        <img id="projectImage2" class="imgSize">
+      </div>
       <div>
-        <p id="speaker2">Noam Chomsky</p>
+        <p id="speaker2" class="LatoBold speaker">Noam Chomsky</p>
         <p id="title2" class="redText1">MIT Linguist</p>
         <img class="horizontalLine" src="resources/horizontalrule.svg" alt="Horizontal Line">
         <p id="bio2"></p>
@@ -88,9 +96,12 @@ function loadHTML() {
     </div>
 
     <div class="bottomSpeakers">
-      <img id="projectImage3" class="imgSize">
+      <div class="pRelative">
+        <img class="checkerpattern" src="resources/checkerpattern.svg">
+        <img id="projectImage3" class="imgSize">
+      </div>
       <div>
-        <p id="speaker3">G.W.F. Hegel</p>
+        <p id="speaker3" class="LatoBold speaker">G.W.F. Hegel</p>
         <p id="title3" class="redText1">Philosopher</p>
         <img class="horizontalLine" src="resources/horizontalrule.svg" alt="Horizontal Line">
         <p id="bio3"></p>
@@ -98,9 +109,12 @@ function loadHTML() {
     </div>
 
     <div class="bottomSpeakers">
-      <img id="projectImage4" class="imgSize">
+      <div class="pRelative">
+        <img class="checkerpattern" src="resources/checkerpattern.svg">
+        <img id="projectImage4" class="imgSize">
+      </div>
       <div>
-        <p id="speaker4">Honinbo Dosaku</p>
+        <p id="speaker4" class="LatoBold speaker">Honinbo Dosaku</p>
         <p id="title4" class="redText1">9 Dan Go Player</p>
         <img class="horizontalLine" src="resources/horizontalrule.svg" alt="Horizontal Line">
         <p id="bio4"></p>
@@ -108,9 +122,12 @@ function loadHTML() {
     </div>
 
     <div class="bottomSpeakers">
-      <img id="projectImage5" class="imgSize">
+      <div class="pRelative">
+        <img class="checkerpattern" src="resources/checkerpattern.svg">
+        <img id="projectImage5" class="imgSize">
+      </div>
       <div>
-        <p id="speaker5">Yasunari Kawabata</p>
+        <p id="speaker5" class="LatoBold speaker">Yasunari Kawabata</p>
         <p id="title5" class="redText1">Writer</p>
         <img class="horizontalLine" src="resources/horizontalrule.svg" alt="Horizontal Line">
         <p id="bio5"></p>
@@ -118,9 +135,12 @@ function loadHTML() {
     </div>
 
     <div class="bottomSpeakers">
-      <img id="projectImage6" class="imgSize">
+      <div class="pRelative">
+        <img class="checkerpattern" src="resources/checkerpattern.svg">
+        <img id="projectImage6" class="imgSize">
+      </div>
       <div>
-        <p id="speaker6">Matsuo Basho</p>
+        <p id="speaker6" class="LatoBold speaker">Matsuo Basho</p>
         <p id="title6" class="redText1">Poet</p>
         <img class="horizontalLine" src="resources/horizontalrule.svg" alt="Horizontal Line">
         <p id="bio6"></p>
