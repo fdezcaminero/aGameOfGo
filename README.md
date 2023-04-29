@@ -10,6 +10,7 @@ This upcoming June 27, 1835, Honinbo Jowa plays Akaboshi Intetsu
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [Introduction Video](#Video)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -51,7 +52,7 @@ This upcoming June 27, 1835, Honinbo Jowa plays Akaboshi Intetsu
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 💻 Recorded Introduction to the Project
+## 💻 Recorded Introduction to the Project <a name="Video"></a>
 
 - [Video of the Author Introducing the Project](https://www.loom.com/share/2add7b858da64f07b5ea40930d7a95e7)
 
@@ -142,6 +143,8 @@ If you like this project send thanks to Microverse.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+Many thanks to [Cindy Shin](https://www.behance.net/adagio07) for the original design
 
 Special thanks to https://unsplash.com/ and https://www.pexels.com/ (along with their photographers).
 
