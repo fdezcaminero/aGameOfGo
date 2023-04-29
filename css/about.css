@@ -1,0 +1,332 @@
+@font-face {
+  font-family: LatoRegular;
+  src: url(../resources/LatoFonts/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: LatoSemiBold;
+  src: url(../resources/LatoFonts/Lato-Semibold.ttf);
+}
+
+@font-face {
+  font-family: LatoBold;
+  src: url(../resources/LatoFonts/Lato-Bold.ttf);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.prenav {
+  display: none;
+}
+
+.mynav {
+  display: none;
+}
+
+.LatoRegular {
+  font-family: LatoRegular, serif;
+}
+
+.eventCard {
+  background-image: url(../resources/blackandwhiteGo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: LatoRegular, sans-serif;
+  text-align: center;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 1px;
+  height: 155px;
+  margin-top: 15px;
+}
+
+.eventstyle {
+  font-size: 20px;
+  margin-top: 45px;
+}
+
+.styleSponsors {
+  background: #414246;
+  color: white;
+  padding: 40px;
+}
+
+.introStyle {
+  background-image: url(../resources/mobile_intro_bg.png);
+}
+
+.toolbarStyle {
+  font-size: 52px;
+  padding-top: 12px;
+  padding-left: 12px;
+}
+
+.dispNone1 {
+  display: none;
+}
+
+.plainAnchor {
+  text-decoration: none;
+  color: white;
+}
+
+.mobileMenuStyle {
+  background-image: url(../resources/goImage3.jpg);
+  height: 100vh;
+}
+
+.mobileMenuContent {
+  color: white;
+  font-family: LatoBold, sans-serif;
+  font-size: 48px;
+}
+
+.xButton {
+  position: absolute;
+  top: 0;
+  color: white;
+  font-size: 59px;
+  right: 0;
+}
+
+.introTextStyle {
+  padding: 135px 34px;
+}
+
+.pStyle1 {
+  color: #fe5037;
+}
+
+.h1Style {
+  font-size: 46px;
+  -webkit-background-clip: text;
+  background-image: url(../resources/redBg.jpg);
+  color: transparent;
+}
+
+.LatoBold {
+  font-family: LatoBold, sans-serif;
+}
+
+.midParagraph {
+  color: black;
+  line-height: 30px;
+  width: 644px;
+  max-width: 80vw;
+  background-color: white;
+  border: 1px solid lightgray;
+}
+
+.redbar {
+  width: 48px;
+  border-bottom: 2px solid #fe5037;
+  margin: 5px auto 5px;
+}
+
+.redbar2 {
+  width: 48px;
+  border-bottom: 2px solid #fe5037;
+  margin: 5px auto 5px;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.emailSection {
+  font-size: 20px;
+  text-align: center;
+  padding-right: 52px;
+}
+
+.emailStyle {
+  color: black;
+}
+
+.copyright1 {
+  color: #fe5037;
+}
+
+.cckorea {
+  width: 250px;
+  padding: 40px;
+}
+
+.cckorea2 {
+  display: none;
+}
+
+.copyright1835 {
+  padding-top: 82px;
+}
+
+.styleCopyright {
+  display: flex;
+  justify-content: center;
+}
+
+.pSponsors {
+  text-align: center;
+  color: #9e9e9e;
+}
+
+.Honinbo {
+  color: #aeaeae;
+}
+
+.Inoue {
+  color: #676767;
+}
+
+.MIT {
+  color: #8d8d8d;
+}
+
+.ministry {
+  color: #878787;
+}
+
+.DuckDuckGo {
+  color: #6e6e6e;
+}
+
+.flexbox3 {
+  display: flex;
+  justify-content: center;
+}
+
+.flexbox3 > p {
+  padding: 0 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .mynav {
+    display: flex;
+    padding: 5px 0;
+    position: relative;
+    height: 63px;
+  }
+
+  .navul {
+    list-style-type: none;
+    display: flex;
+    font-family: LatoRegular, sans-serif;
+    justify-content: flex-end;
+    color: #7b7b7b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    right: 115px;
+  }
+
+  .liGray {
+    padding-right: 35px;
+  }
+
+  .prenav {
+    background-color: #3e3e3e;
+    color: white;
+    display: block;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #a5a5a5;
+  }
+
+  .prenavul {
+    list-style-type: none;
+    display: flex;
+    font-family: LatoRegular, sans-serif;
+    justify-content: flex-end;
+    padding-right: 102px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+  .prenavul > li {
+    padding-right: 20px;
+  }
+
+  .ccsummitlogo {
+    width: 120px;
+    position: absolute;
+    left: 100px;
+  }
+
+  .liRed {
+    color: #ee3e27;
+    border: 2px solid #ee3e27;
+    padding: 0 5px;
+  }
+
+  .liGray:hover {
+    color: #ee3e27;
+  }
+
+  .mainAnchor {
+    text-decoration: none;
+    color: gray;
+  }
+
+  .mainAnchor:hover {
+    color: #ee3e27;
+  }
+
+  .toolbarStyle {
+    display: none;
+  }
+
+  .pStyle1 {
+    display: none;
+  }
+
+  .h1Style {
+    font-size: 70px;
+    max-width: 650px;
+  }
+
+  .emailSection {
+    max-width: 600px;
+    padding-right: 0;
+  }
+
+  .otherEvents {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 15px;
+  }
+
+  .introTextStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 172px 0;
+  }
+
+  .styleCopyright {
+    background-color: #2e2e2e;
+    color: white;
+  }
+
+  .cckorea {
+    display: none;
+  }
+
+  .cckorea2 {
+    display: block;
+    width: 250px;
+    padding: 40px;
+  }
+
+  .copyright1835 {
+    padding-top: 32px;
+    padding-right: 40px;
+  }
+}

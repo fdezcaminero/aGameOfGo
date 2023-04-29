@@ -1,0 +1,488 @@
+@font-face {
+  font-family: LatoRegular;
+  src: url(../resources/LatoFonts/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: LatoSemiBold;
+  src: url(../resources/LatoFonts/Lato-Semibold.ttf);
+}
+
+@font-face {
+  font-family: LatoBold;
+  src: url(../resources/LatoFonts/Lato-Bold.ttf);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.prenav {
+  display: none;
+}
+
+.mynav {
+  display: none;
+}
+
+.LatoRegular {
+  font-family: LatoRegular, sans-serif;
+}
+
+.LatoBold {
+  font-family: LatoBold, sans-serif;
+}
+
+.buttonMoreStyle {
+  text-align: center;
+  border: 1px solid lightgray;
+  padding: 7px;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.arrowStyle {
+  width: 10px;
+}
+
+.mainStyle {
+  color: white;
+  background-image: url(../resources/mainprogram.png);
+  background-repeat: repeat;
+  background-color: #272a32;
+  position: relative;
+}
+
+.mainh2Style {
+  text-align: center;
+  padding: 26px 0;
+}
+
+.divOpacity {
+  background-color: rgb(128, 128, 128, 0.3);
+  width: 80vw;
+  height: 80px;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.flexbox1 {
+  display: flex;
+  padding: 10px;
+}
+
+.activityType {
+  color: #fe5037;
+  margin: auto 12px;
+  width: 23%;
+}
+
+.activityType2 {
+  color: #fe5037;
+  margin: auto 12px;
+  width: 23%;
+}
+
+.activityContent {
+  font-size: 13px;
+  margin: auto 0;
+  max-width: 36vw;
+}
+
+.flexCenter {
+  justify-content: center;
+}
+
+.buttonMainStyle {
+  border: none;
+  border-radius: 2px;
+  background-color: orange;
+  margin: 5px 0;
+}
+
+.alienImage {
+  width: 20px;
+}
+
+.programStyle {
+  display: none;
+}
+
+.styleSponsors {
+  display: none;
+}
+
+.styleCopyright {
+  display: none;
+}
+
+.horizontalLine {
+  color: #d7d7d7;
+  width: 25px;
+}
+
+.redText1 {
+  color: red;
+  font-style: italic;
+}
+
+.h3Style1 {
+  font-family: LatoBold, sans-serif;
+  text-align: center;
+  font-size: 25px;
+}
+
+.bottomSpeakers {
+  display: none;
+}
+
+.introStyle {
+  background-image: url(../resources/mobile_intro_bg.png);
+}
+
+.introTextStyle {
+  padding: 135px 24px;
+}
+
+.pStyle1 {
+  color: #fe5037;
+}
+
+.midParagraph {
+  color: black;
+  line-height: 30px;
+  width: 644px;
+  max-width: 80vw;
+  border: 4px solid white;
+  background-color: #fafafa;
+}
+
+.locationStyle {
+  color: black;
+}
+
+.toolbarStyle {
+  font-size: 52px;
+  padding-top: 12px;
+  padding-left: 12px;
+}
+
+.h1Style {
+  font-size: 46px;
+}
+
+.clip {
+  -webkit-background-clip: text;
+  background-image: url(../resources/redBg.jpg);
+  color: transparent;
+}
+
+.dispNone1 {
+  display: none;
+}
+
+.mobileMenuStyle {
+  background-image: url(../resources/goImage3.jpg);
+  height: 100vh;
+}
+
+.mobileMenuContent {
+  color: white;
+  font-family: LatoBold, sans-serif;
+  font-size: 48px;
+  list-style-type: none;
+}
+
+.xButton {
+  position: absolute;
+  top: 0;
+  color: white;
+  font-size: 59px;
+  right: 0;
+}
+
+.dateStyle {
+  font-size: 25px;
+}
+
+.redbar {
+  width: 82px;
+  border-bottom: 1px solid #fe5037;
+  margin: -15px auto 35px;
+}
+
+.plainAnchor {
+  text-decoration: none;
+  color: white;
+}
+
+.pSponsors {
+  text-align: center;
+  color: #9e9e9e;
+}
+
+.Honinbo {
+  color: #aeaeae;
+}
+
+.Inoue {
+  color: #676767;
+}
+
+.MIT {
+  color: #8d8d8d;
+}
+
+.ministry {
+  color: #878787;
+}
+
+.DuckDuckGo {
+  color: #6e6e6e;
+}
+
+.flexbox2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.imgSize {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  padding-right: 10px;
+}
+
+.copyright1 {
+  color: #fe5037;
+}
+
+.flexSpeakers {
+  display: flex;
+  gap: 5px;
+  padding: 40px;
+}
+
+.cckorea {
+  width: 250px;
+  padding: 40px;
+}
+
+.copyright1835 {
+  padding-top: 93px;
+  padding-right: 20px;
+}
+
+.flexbox3 {
+  display: flex;
+  justify-content: center;
+}
+
+.flexbox3 > p {
+  padding: 0 3px;
+}
+
+.redbar2 {
+  width: 48px;
+  border-bottom: 2px solid #fe5037;
+  margin: 5px auto 5px;
+}
+
+.redbar3 {
+  width: 65px;
+  border-bottom: 2px solid #fe5037;
+  margin: 10px auto 30px;
+}
+
+.speaker {
+  font-size: 20px;
+}
+
+.pRelative {
+  position: relative;
+}
+
+.checkerpattern {
+  width: 50px;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  z-index: -1;
+}
+
+.speakersSection {
+  padding: 40px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .mynav {
+    display: flex;
+    padding: 5px 0;
+    position: relative;
+    height: 63px;
+  }
+
+  .navul {
+    list-style-type: none;
+    display: flex;
+    font-family: LatoRegular, sans-serif;
+    justify-content: flex-end;
+    color: #7b7b7b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    right: 115px;
+  }
+
+  .liGray {
+    padding-right: 35px;
+  }
+
+  .prenav {
+    background-color: #3e3e3e;
+    color: white;
+    display: block;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #a5a5a5;
+  }
+
+  .prenavul {
+    list-style-type: none;
+    display: flex;
+    font-family: LatoRegular, sans-serif;
+    justify-content: flex-end;
+    padding-right: 102px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+  .prenavul > li {
+    padding-right: 20px;
+  }
+
+  .ccsummitlogo {
+    width: 120px;
+    position: absolute;
+    left: 100px;
+  }
+
+  .liRed {
+    color: #ee3e27;
+    border: 2px solid #ee3e27;
+    padding: 0 5px;
+  }
+
+  .liGray:hover {
+    color: #ee3e27;
+  }
+
+  .mainAnchor {
+    text-decoration: none;
+    color: gray;
+  }
+
+  .mainAnchor:hover {
+    color: #ee3e27;
+  }
+
+  .toolbarStyle {
+    display: none;
+  }
+
+  .buttonMainStyle {
+    display: none;
+  }
+
+  .programStyle {
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    padding: 50px 0;
+  }
+
+  .pStyle1 {
+    font-size: 30px;
+  }
+
+  .h1Style {
+    font-size: 70px;
+    max-width: 650px;
+  }
+
+  .introStyle {
+    padding-left: 130px;
+  }
+
+  .styleSponsors {
+    display: block;
+    background: #414246;
+    color: white;
+    padding: 40px;
+  }
+
+  .styleCopyright {
+    display: flex;
+    justify-content: center;
+  }
+
+  .bottomSpeakers {
+    display: flex;
+    gap: 5px;
+    padding: 40px;
+  }
+
+  .dateStyle {
+    font-size: 35px;
+  }
+
+  .flexbox2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .flexbox1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .smallIcon {
+    width: 5vw;
+  }
+
+  .divOpacity {
+    height: 143px;
+    width: 17vw;
+  }
+
+  .activityContent {
+    text-align: center;
+  }
+
+  .activityType {
+    width: auto;
+  }
+
+  .buttonMoreStyle {
+    display: none;
+  }
+
+  .gridSpeakers {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .speakersSection {
+    padding: 40px 70px;
+  }
+}

@@ -10,6 +10,7 @@ This upcoming June 27, 1835, Honinbo Jowa plays Akaboshi Intetsu
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [Introduction Video](#Video)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -51,9 +52,15 @@ This upcoming June 27, 1835, Honinbo Jowa plays Akaboshi Intetsu
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 💻 Recorded Introduction to the Project <a name="Video"></a>
+
+- [Video of the Author Introducing the Project](https://www.loom.com/share/2add7b858da64f07b5ea40930d7a95e7)
+
+- [Video of the Author Introducing the Project, Take 2](https://www.loom.com/share/69894470302a490e84ee3990e6d8400e)
+
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo!](https://fdezcaminero.github.io/)
+- [Live Demo!](https://fdezcaminero.github.io/aGameOfGo/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,12 +144,16 @@ If you like this project send thanks to Microverse.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my code reviewer for showing me this README template.
+Many thanks to [Cindy Shin](https://www.behance.net/adagio07) for the original design
+
+Special thanks to https://unsplash.com/ and https://www.pexels.com/ (along with their photographers).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
+
+Some photographic material is licensed under Creative Commons 2.0 and some under Creative Commons 4.0.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
